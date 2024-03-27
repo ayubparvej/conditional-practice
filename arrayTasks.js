@@ -67,3 +67,15 @@ if (Array.isArray(destination) === true) {
 } else if (Array.isArray(numberOfPlaces) === true) {
     console.log('Number is an array')
 }
+
+
+//5. Combining Arrays
+
+//5.1. Create two arrays of your choice.
+const touristDestinationOne = ['Ladak', 'Manali', 'kashmir', 'darzelling']
+//5.1. Create two arrays of your choice.
+const touristDestinationTwo = ['Paris', 'Peru', 'Turkey', 'Italy']
+
+//5.2. Use the concat method to combine the two arrays into a new array.
+
+// console.log(touristDestinationOne.concat(touristDestinationTwo));
