@@ -94,3 +94,13 @@ for (const prop in mobile) {
     console.log(prop)
     console.log(mobile[prop])
 }
+
+//ways to declare object
+const rubber = {
+    brand: 'samsung',
+    price: '25000',
+    color: 'black',
+    camera: '12mp'
+}
+const pen = new object(); //object(can add keys:values here)
+const pencil = object.create({}); //creaye({can add keys:values here})
