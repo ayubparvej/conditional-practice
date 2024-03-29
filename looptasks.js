@@ -23,7 +23,7 @@ while (num < 200) {
 let i = 1;
 while (i <= 100) {
     if (i * i === i) {
-        // console.log(i)
+        // console. log(i)
         break;
     }
     // console.log(i)
