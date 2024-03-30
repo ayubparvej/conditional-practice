@@ -63,7 +63,11 @@ const foodItems = ['chola', 'jilapi', 'halim', 'kacchi'];
 //4.3. Print a message to the console indicating whether each variable is an array or not
 
 if (Array.isArray(destination) === true) {
-    console.log('destination is an array')
+    // console.log('destination is an array')
 } else if (Array.isArray(numberOfPlaces) === true) {
-    console.log('Number is an array')
+    // console.log('numberOfPlaces is an array')
+} else if (Array.isArray(isVisitable) === true) {
+    // console.log('isVisitable is an array')
+} else if (Array.isArray(foodItems) === true) {
+    // console.log('foodItems is an array')
 }
