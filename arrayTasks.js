@@ -65,9 +65,26 @@ const foodItems = ['chola', 'jilapi', 'halim', 'kacchi'];
 if (Array.isArray(destination) === true) {
     // console.log('destination is an array')
 } else if (Array.isArray(numberOfPlaces) === true) {
+<<<<<<< HEAD
     // console.log('numberOfPlaces is an array')
 } else if (Array.isArray(isVisitable) === true) {
     // console.log('isVisitable is an array')
 } else if (Array.isArray(foodItems) === true) {
     // console.log('foodItems is an array')
 }
+=======
+    console.log('Number is an array')
+}
+
+
+//5. Combining Arrays
+
+//5.1. Create two arrays of your choice.
+const touristDestinationOne = ['Ladak', 'Manali', 'kashmir', 'darzelling']
+//5.1. Create two arrays of your choice.
+const touristDestinationTwo = ['Paris', 'Peru', 'Turkey', 'Italy']
+
+//5.2. Use the concat method to combine the two arrays into a new array.
+
+// console.log(touristDestinationOne.concat(touristDestinationTwo));
+>>>>>>> b15fc9822f75a44b44f9f2252ad66c33c0e9dade
